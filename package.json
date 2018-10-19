@@ -1,0 +1,22 @@
+{
+  "name": "BoilJS",
+  "version": "1.0.0",
+  "description": "Booilerplate to faster start a web project",
+  "dependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^16.2.3",
+    "jquery": "^3.3.1"
+  },
+  "repository": {
+    "type": "boilerplate, browserify"
+  },
+  "keywords": [
+    "boilerplate",
+    "browserify",
+    "beefy",
+    "javascript",
+    "livereload"
+  ],
+  "author": "Leonidas Christou",
+  "devDependencies": {}
+}

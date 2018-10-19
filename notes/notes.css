@@ -1,0 +1,74 @@
+html, body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#popup-content {
+    box-sizing: border-box;
+}
+.hidden {
+    display: none;
+}
+.container{
+    padding: 10px 30px;
+}
+.title_container {
+    background: #f2f2f2;
+}
+.note_title{
+    font-size: 20px;
+}
+.note_body{
+    resize: none;
+    position: relative;
+    top: 4px;
+}
+.note_title,
+.note_body {
+    font-weight: 400;
+    width: 100%;
+    border: 0;
+    color: rgba(0,0,0,0.7);
+    font-family: 'Roboto', sans-serif;
+}
+.title_container h1 {
+    color: rgba(0,0,0,0.5);
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    margin: 0;
+    padding: 0 24px;
+}
+.title_container h1::before {
+    background: url("lock.png");
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    content: "";
+    left: 0;
+    opacity: 0.7;
+}
+.button {
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.beast:hover {
+    background-color: #CFF2F2;
+}
+
+.beast {
+    background-color: #E5F2F2;
+}
+
+.reset {
+    background-color: #FBFBC9;
+}
+
+.reset:hover {
+    background-color: #EAEA9D;
+}
