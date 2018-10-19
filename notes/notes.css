@@ -1,5 +1,5 @@
 html, body {
-    width: 100%;
+    width: 420px;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -15,6 +15,10 @@ html, body {
 }
 .title_container {
     background: #f2f2f2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .note_title{
     font-size: 20px;
@@ -71,4 +75,23 @@ html, body {
 
 .reset:hover {
     background-color: #EAEA9D;
+}
+
+.actions .action {
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.container.actions .delete_action {
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    margin-left: 14px;
+}
+.container.actions .save_action {
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+.actions .action:hover{
+    color: rgba(0,0,0,0.8);
 }
